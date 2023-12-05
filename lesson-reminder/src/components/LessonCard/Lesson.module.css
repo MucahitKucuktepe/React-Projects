@@ -1,0 +1,62 @@
+.lesson_reminder {
+  background-color: aqua;
+  height: calc(100vh - 100px);
+}
+.reminder {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  font-size: 4rem;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  border: 2px solid red;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 120, 1) 37%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lessons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  height: 100%;
+  width: 300px;
+
+}
+
+.lesson_img {
+  width: 100px;
+}
+.info{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.lesson_hour{
+    color: white;
+
+}
+.lesson_name{
+    color: white;
+}
