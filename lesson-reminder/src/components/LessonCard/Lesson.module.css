@@ -1,7 +1,4 @@
-.lesson_reminder {
-  background-color: aqua;
-  height: calc(100vh - 100px);
-}
+
 .reminder {
   color: white;
   text-align: center;
@@ -29,6 +26,9 @@
   padding: 10px;
   align-items: center;
   justify-content: center;
+  box-shadow: 5px 10px 10px black;
+  
+
 }
 
 .lessons {

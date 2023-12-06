@@ -1,10 +1,10 @@
 .navbar {
   display: flex;
   align-items: center;
-  background-color: rgba(212, 144, 155, 0.578);
+  background-color: rgb(151, 158, 67);
+
 }
 .logo {
   width: 250px;
   height: 100px;
-  color: gray;
 }
