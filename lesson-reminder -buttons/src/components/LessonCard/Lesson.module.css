@@ -1,0 +1,78 @@
+
+.reminder {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  font-size: 4rem;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  border: 2px solid red;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 120, 1) 37%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 10px 10px black;
+  
+position: relative;
+}
+
+.lessons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  height: 100%;
+  width: 300px;
+
+}
+
+.lesson_img {
+  width: 100px;
+}
+.info{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.lesson_hour{
+    color: white;
+
+}
+.lesson_name{
+    color: white;
+}
+
+.delete_btn{
+position: absolute;
+bottom: 10px;
+border: 1px solid red;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+.delete_btn button {
+  background-color: inherit;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
